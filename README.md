@@ -1,24 +1,76 @@
-# README
+<h1 align="center">Welcome to Bookstore backend 👋</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is a bookstore app back-end to save info on the database related with [this front-end project](https://github.com/shjang7/bookstore-frontend).
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby 2.6
+- Rails 6.0
+- PostgreSQL 10.10
+- Rails api
 
-* System dependencies
+### ✨ [Live Demo](https://rails-bookstore-backend-suh.herokuapp.com/)
 
-* Configuration
+## Getting started
 
-* Database creation
+> Clone the repository to your local machine
 
-* Database initialization
+```
+$ git clone https://github.com/shjang7/bookstore-backend.git
+```
 
-* How to run the test suite
+> Change directory into the directory
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ cd bookstore-backend
+```
 
-* Deployment instructions
+> Create database
 
-* ...
+```
+$ rails db:create
+```
+
+> Migrate database
+
+```
+$ rails db:migrate
+```
+
+> Install the needed gems:
+
+```
+$ bundle install
+```
+
+> Open server
+
+```
+$ rails server
+```
+
+> Go to `http://localhost:3000` using your browser.
+
+## Author
+
+👤 **Suhyeon Jang**
+
+- Github: [@shjang7](https://github.com/shjang7)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/shjang7/bookstore-backend/issues).
+
+1. Fork it (https://github.com/shjang7/bookstore-backend/fork)
+2. Create your working branch (git checkout -b [choose-a-name])
+3. Commit your changes (git commit -am 'what this commit will fix/add')
+4. Push to the branch (git push origin feature/[feature-name])
+5. Create a new Pull Request
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](https://github.com/shjang7/bookstore-backend/blob/master/LICENSE) licensed.
