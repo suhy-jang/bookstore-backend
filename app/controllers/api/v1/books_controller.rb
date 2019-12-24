@@ -1,5 +1,5 @@
 class Api::V1::BooksController < ApiController
-  before_action :set_book, only: [:delete]
+  before_action :set_book, only: [:destroy]
 
   def index
     @books = Book.all
@@ -7,13 +7,11 @@ class Api::V1::BooksController < ApiController
   end
 
   def create
-    @book = Book.new(book_params)
-    if @book.save
-      render json: @book
-    end
+    @book = Book.create(book_params)
+    render json: @book
   end
 
-  def delete
+  def destroy
     @book.destroy
   end
 
@@ -24,6 +22,6 @@ class Api::V1::BooksController < ApiController
   end
 
   def book_params
-    params.require(:book).permit(:title, :description)
+    params.require(:book).permit(:title, :category)
   end
 end
