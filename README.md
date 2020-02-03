@@ -2,6 +2,8 @@
 
 This project is a bookstore app back-end to save info on the database related with [this front-end project](https://github.com/shjang7/bookstore-frontend).
 
+![](./public/screenshot.png)
+
 ## Built With
 
 - Ruby 2.6
@@ -56,6 +58,8 @@ $ rails server
 👤 **Suhyeon Jang**
 
 - Github: [@shjang7](https://github.com/shjang7)
+- LinkedIn: [@shjang](https://www.linkedin.com/in/shjang/)
+- Twitter: [@shjang12](https://twitter.com/shjang12)
 
 ## 🤝 Contributing
 
