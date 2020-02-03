@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   end
 
   resources :books
+  root 'api/v1/books#index'
 end
